@@ -18,4 +18,9 @@ public class TreeMultiSet extends MultiSet {
     }
     // TODO write the rest of the implementation for this class so that it uses its private Tree
     //      object to provide the MultiSet functionality.
+
+    void remove(Integer item) {
+        // TODO complete this method
+        tree.delete_item(item);
+    }
 }
